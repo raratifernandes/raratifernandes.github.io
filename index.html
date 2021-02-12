@@ -23,7 +23,7 @@
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#Sobre">Sobre Min</a></li>
+								<li><a href="#Sobre">Sobre Mim</a></li>
 								<li><a href="#Formacao">Formação</a></li>
 								<li><a href="#Experiencias">Experiência</a></li>
 								<li><a href="#Contato">Contato</a></li>
@@ -36,7 +36,16 @@
 						
 							<article id="Sobre">
 								<h2 class="major">Meu Perfil</h2>
-								
+
+								<h4>Dados</h4>	
+								<div class="col-md-6"> 						
+								<ul style="margin-left: 40px">
+									<li>Solteira, Brasileira </li>
+									<li id="idade"></li>
+									<li>Rua Bartolomeu Bueno da Silva, Jardim novo Bandeirantes</li>									
+								</ul>
+								</div>
+
 								<h4>Resumo Profissional</h4>							
 								<p>Experiências com Rotinas Financeiras, Contas a Pagar, Análise e Controle
 Orçamentário, Conciliação Bancária, Faturamento, Baixas e Emissão de
@@ -120,7 +129,7 @@ Boletos, Retenção de Impostos sobre Serviços, Atualização Cadastral de Clie
 						<!-- Contato -->
 							<article id="Contato">
 								<h2 class="major">Contato</h2>							
-								<p><address>Email : <a href="mailto:rarari.tamiris@gmail.com">rarari.tamiris@gmail.com</a><br> </address></p>
+								<p><address>Email : <a href="mailto:rarati.tamiris@gmail.com">rarati.tamiris@gmail.com</a><br> </address></p>
 								</form>
 								<ul class="icons">
 									<li><a href="https://www.linkedin.com/in/r%C3%A1rati-fernandes-a90b631b4/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
@@ -147,8 +156,8 @@ Boletos, Retenção de Impostos sobre Serviços, Atualização Cadastral de Clie
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
 			<script>
 				$(document).ready(function(){				
-					var idade = Math.floor(moment(new Date()).diff(moment("1996-06-18"),'years',true));
-					$( "#idade" ).html( "<p>"+idade+" Anos </p>" );
+					var idade = Math.floor(moment(new Date()).diff(moment("1998-01-21"),'years',true));
+					$( "#idade" ).html( ""+idade+" Anos" );
 				});
 
 			</script>
